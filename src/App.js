@@ -4,9 +4,9 @@ import NavigationPanel from "./components/NavigationPanel";
 
 const App = () => {
   return (
-    <h1>
+    <>
       <AdminBoard />
-    </h1>
+    </>
   );
 };
 

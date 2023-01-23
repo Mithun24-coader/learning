@@ -1,5 +1,11 @@
-import React from "react";
-
-export default function ContactList() {
-  return <div>ContactList</div>;
+import Box from "@mui/material/Box";
+function ContactList() {
+  return (
+    <>
+      <Box height={100} />
+      <div>ContactList</div>
+    </>
+  );
 }
+
+export default ContactList;

@@ -1,7 +1,11 @@
-import React from "react";
-
+import Box from "@mui/material/Box";
 function FeedBacks() {
-  return <div>FeedBacks</div>;
+  return (
+    <>
+      <Box height={100} />
+      <div>FeedBacks</div>
+    </>
+  );
 }
 
 export default FeedBacks;
